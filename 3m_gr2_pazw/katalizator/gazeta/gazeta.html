@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przyspieszony Smok | Kursy</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="../jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Kurs przyspieszonego smoka</h1>
+        <input type="search" placeholder="Szukaj: " class="box">
+        <button class="search"><img id="lupa" src="search.png"></button>
+        <button class="hamburger">&#9776;</button>
+    </header>
+    <nav>
+        <a class="link" href="">Obrona słowiańska</a><br>
+        <a class="link" href="">Gambit portugalski</a><br>
+        <a class="link" href="">Atak smażonej wątróbki</a><br>
+        <a class="link" href="">Obrona francuska</a><br>
+        <a class="link" href="">Partia włoska</a><br>
+        <a class="link" href="">Obrona Caro-Kann</a><br>
+        <a class="link" href="">Partia hiszpańska</a><br>
+        <a class="link" href="">Obrona holenderska</a><br>
+        <a class="link" href="">Gambit sandomierski</a><br>
+    </nav>
+    <main>
+        <section>
+            <h2 id="otw">Otwarcie</h2>
+            <article id="otwA">
+                <img class="board" src="board.jpeg">
+                <p>Przyspieszony smok to wariant obrony sycylijskiej powstający po ruchach: </p>
+                <ol>
+                    <li>e4 c5</li>
+                    <li>Nf3 Nc6</li>
+                    <li>d4 cxd4</li>
+                    <li>Nxd4 g6</li>
+                </ol>
+            </article>
+            <h2 id="glo">Główny wariant</h2>
+            <article id="gloA">
+                <img class="board" src="board2.jpeg">
+                <p>Głównym wariantem są kolejno ruchy: <span class="bold">5. Nc3 Bg7 6. Be3 Nf6 7.Bc4 </span>. Ważnym jest, aby białe wykonywały precyzyjne ruchy 
+                    z powodu bardzo agresywnej i strategicznej gry czarnych</p>
+                
+            </article>
+            <h2 id="pie">Pierwsza pułapka</h2>
+            <article id="pieA">
+                <img class="board" src="board3.jpeg">
+                <p>Jednak białe w siódmym ruchu mogą popełnić błąd wyprowadzając gońca na pole e2 <span class="bold">7.Be2?! 0-0 8.0-0 d5!</span> 
+                    doprowadzając do osłabienia pionka na e4</p>
+            </article>
+            <h2 id="war">Wariant Maroczego</h2>
+            <article id="warA">
+                <img class="board" src="board4.jpeg">
+                <p>Wariant Maroczego powstaje po ruchu g6 (Nf3) przez ruch c4. W ten sposób biały próbuje zająć jak najwięcej miejsca w centrum. Po ruchu na c4 następują kolejno 
+                    <span class="bold">Nf6 6. Nc3 d6</span> Jeśli biały w siódmym ruchu popełnią błąd i poruszą się czarnopolakiem na e3 nastpęuje ciekawa pułapka 
+                    <span class="bold">Ng4 8. Bg5 Qb6 9. Nb3 Qxf2# </span> i czarny wygrywa matem.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Prawdziwy kurs należy do Dawida Czerwa, polskiego IM-a szachowego. 
+    </footer>
+</body>
+</html>
