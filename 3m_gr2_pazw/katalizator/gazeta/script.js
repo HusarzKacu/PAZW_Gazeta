@@ -4,7 +4,7 @@ $( document ).ready(function(){
     $(".box").hide();
 
     $(".search").click(function(){
-        $(".box").toggle("slow");
+        $(".box").toggle("fast");
     });
 
     $("#otw").click(function(){
